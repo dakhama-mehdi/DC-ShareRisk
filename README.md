@@ -14,8 +14,8 @@ This script scans all Domain Controllers, detects non-standard shares, and analy
 - Unauthorized accounts  
 - Dangerous or non-whitelisted permissions  
 - Non-inherited ACEs  
-- Unexpected or unapproved shares  
----
+- Unexpected or unapproved shares
+- 
 ### ⚠️ Why non-default shares on DCs are dangerous
 
 ### 1. Domain Controllers are Tier-0 assets
@@ -67,8 +67,18 @@ For production environments and broader AD security assessments, using HardenSys
 ```powershell
 .\DC-ShareAudit.ps1
 ```
-### 📝 License
 
+### 🖥️ Output Preview
+
+Example output from a DC with one suspicious share:
+
+```plaintext
+DC         Share     Type        ACL        Reason                                 Comment
+---------- --------- ----------- ---------- -------------------------------------- -----------------------------
+DC-1       DataShare Disk Drive  WrongACL   Everyone has 'Write, FullControl'     Unapproved share created in 2020
+DC-2       Applis    Disk Drive  Clean      -                                     Logon scripts and policies
+````
+### 📝 License
 This project is released under the **MIT License**.
 You are free to **use**, **modify**, and **distribute** it for personal, educational, or internal business use.  
 For commercial integration, please contact the author.
