@@ -76,7 +76,7 @@ Example output from a DC with one suspicious share:
 DC         Share     Type        ACL        Reason                                 Comment
 ---------- --------- ----------- ---------- -------------------------------------- -----------------------------
 DC-1       DataShare Disk Drive  WrongACL   Everyone has 'Write, FullControl'     Unapproved share created in 2020
-DC-2       Applis    Disk Drive  Clean      -                                     Logon scripts and policies
+DC-2       Applis    Disk Drive  Clean      -                                     Binary applications for GPO
 ````
 ### 📝 License
 This project is released under the **MIT License**.
