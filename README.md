@@ -40,7 +40,6 @@ Most security tools (such as PingCastle or PurpleKnight) do not inspect SMB shar
 ### 4. Not aligned with Microsoft / CIS / ANSSI guidelines
 
 Unexpected SMB shares on Domain Controllers are considered a high-risk misconfiguration in most hardening baselines.
----
 
 ### ✅ Why use this script
 
@@ -58,7 +57,7 @@ This functionality is also included, with richer reporting and additional checks
 [https://github.com/dakhama-mehdi/HardenSysvol](https://github.com/dakhama-mehdi/Harden-Sysvol)
 
 For production environments and broader AD security assessments, using HardenSysvol is recommended.
----
+
 ### ⚙️ Usage
 
 1. Copy the `.ps1` script to any Windows 10, Windows 11, or Windows Server machine that is joined to the domain.  
