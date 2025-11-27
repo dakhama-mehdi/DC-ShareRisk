@@ -1,4 +1,4 @@
-## 🔍 DC-ShareAudit
+### 🔍 DC-ShareRisk
 
 A lightweight PowerShell tool to detect non-default SMB shares on Domain Controllers and identify insecure or misconfigured ACLs.
 
