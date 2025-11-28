@@ -1,10 +1,6 @@
 ### 🔍 DC-ShareRisk
-
 A lightweight PowerShell tool to detect non-default SMB shares on Domain Controllers and identify insecure or misconfigured ACLs.
-
----
 ### 📘 Overview
-
 Domain Controllers should never host custom SMB shares.  
 Only `SYSVOL` and `NETLOGON` are expected by design.
 
