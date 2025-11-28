@@ -15,7 +15,6 @@ This script scans all Domain Controllers, detects non-standard shares, and analy
 - Dangerous or non-whitelisted permissions  
 - Non-inherited ACEs  
 - Unexpected or unapproved shares
-- 
 ### ⚠️ Why non-default shares on DCs are dangerous
 
 ### 1. Domain Controllers are Tier-0 assets
@@ -84,7 +83,6 @@ You are free to **use**, **modify**, and **distribute** it for personal, educati
 For commercial integration, please contact the author.
 
 ### 🙌 Credits
-*** 👤 Author**: Mehdi Dakhama
-*** 🛠️ Project**: `DC-ShareRisk`  
-*** 🔗 Related tools**: 
-- 🔐 [HardenSysvol](https://github.com/dakhama-mehdi/HardenSysvol) – Secure your SYSVOL and GPO infrastructure  
+👤 Author : Mehdi Dakhama
+🛠️ Project : `DC-ShareRisk`  
+🔗 Related tools : [HardenSysvol](https://github.com/dakhama-mehdi/HardenSysvol) – Secure your SYSVOL and GPO infrastructure  
